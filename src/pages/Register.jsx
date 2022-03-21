@@ -26,6 +26,7 @@ const Register = () => {
             toast.error(message);
         }
         if (isSuccess || user) {
+            toast.success("You have registered successfully");
             navigate("/");
         }
 
